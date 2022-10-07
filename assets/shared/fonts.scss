@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'f-light';
+  src: url('@/assets/fonts/IRANSansWeb(FaNum)_Light.eot') format('eot'),
+    /* IE6–8 */ url('@/assets/fonts/IRANSansWeb(FaNum)_Light.woff')
+      format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url('@/assets/fonts/IRANSansWeb(FaNum)_Light.ttf') format('truetype'); /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+$fLight: 'f-light';
+.f-light {
+  font-family: $fLight;
+}
+
+@font-face {
+  font-family: 'f-med';
+  src: url('@/assets/fonts/IRANSansWeb(FaNum)_Medium.eot') format('eot'),
+    url('@/assets/fonts/IRANSansWeb(FaNum)_Medium.woff') format('woff'),
+    url('@/assets/fonts/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+$fMed: 'f-med';
+.f-med {
+  font-family: $fMed;
+}
+
+@font-face {
+  font-family: 'f-bold';
+  src: url('@/assets/fonts/IRANSansWeb(FaNum)_Bold.eot') format('eot'),
+    url('@/assets/fonts/IRANSansWeb(FaNum)_Bold.woff') format('woff'),
+    url('@/assets/fonts/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+$fBold: 'f-bold';
+.f-bold {
+  font-family: $fBold;
+}
+
+@font-face {
+  font-family: 'f-black';
+  src: url('@/assets/fonts/IRANSansWeb(FaNum)_Black.eot') format('eot'),
+    url('@/assets/fonts/IRANSansWeb(FaNum)_Black.woff') format('woff'),
+    url('@/assets/fonts/IRANSansWeb(FaNum)_Black.ttf') format('truetype');
+}
+$fBlack: 'f-black';
+.f-black {
+  font-family: $fBlack;
+}

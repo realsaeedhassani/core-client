@@ -1,0 +1,38 @@
+.message-app {
+  position: relative !important;
+
+  .card-text-md-up {
+    width: calc(100% - 269px) !important;
+    margin-right: 269px !important;
+  }
+
+  .messages-section {
+    overflow-y: scroll;
+
+    .message-box {
+      border-radius: 4px;
+      padding: 10px 10px 0px;
+      max-width: 280px;
+
+      hr{
+        height: 1px !important;
+        background-color: white !important;
+        border: none !important;
+      }
+    }
+
+    .rtl {
+      .message-box {
+        background-color: #b2e281;
+        color: #2c2c2c;
+      }
+    }
+
+    .ltr {
+      .message-box {
+        background-color: var(--v-mainBack-base);
+        color: var(--v-title-base);
+      }
+    }
+  }
+}

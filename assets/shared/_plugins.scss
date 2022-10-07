@@ -1,0 +1,17 @@
+/* Vue Toast Notification */
+.v-toast__text {
+  font-family: $fLight !important;
+  direction: rtl !important;
+}
+
+.v-toast__item--error {
+  background-color: var(--v-error-base) !important;
+}
+
+.v-toast__item--success {
+  background-color: var(--v-success-base) !important;
+}
+
+.v-toast__item--info {
+  background-color: var(--v-info-base) !important;
+}
