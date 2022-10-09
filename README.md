@@ -1,6 +1,4 @@
-# archive-client
-
-## Front-End Project
+# Base Project for Client
 
 ---
 
