@@ -2482,7 +2482,7 @@
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
 
-"@vue/test-utils@^1.3.6":
+"@vue/test-utils@^1.3.0":
   version "1.3.6"
   resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-1.3.6.tgz#6656bd8fa44dd088b4ad80ff1ee28abe7e5ddf87"
   integrity sha512-udMmmF1ts3zwxUJEIAj5ziioR900reDrt6C9H3XpWPsLBx2lpHKoA4BTdd9HNIYbkGltWw+JjWJ+5O6QBwiyEw==
@@ -8673,7 +8673,7 @@ lru-cache@^5.1.1:
 
 lru-cache@^6.0.0:
   version "6.0.0"
-  resolved "https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
   integrity sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
   dependencies:
     yallist "^4.0.0"
@@ -11679,7 +11679,7 @@ semver@7.0.0:
   resolved "https://registry.npmjs.org/semver/-/semver-7.0.0.tgz"
   integrity sha512-+GB6zVA9LWh6zovYQLALHwv5rb2PHGlJi3lfiqIHxR0uuwCgefcOJc59v9fv1w8GbStwxuuqqAjI9NMAOOgq1A==
 
-semver@7.3.5, semver@^7.2.1, semver@^7.3.2, semver@^7.3.4, semver@^7.3.5:
+semver@7.3.5, semver@^7.2.1, semver@^7.3.2, semver@^7.3.4:
   version "7.3.5"
   resolved "https://registry.npmjs.org/semver/-/semver-7.3.5.tgz"
   integrity sha512-PoeGJYh8HK4BTO/a9Tf6ZG3veo/A7ZVsYrSA6J8ny9nb3B1VrpkuN+z9OE5wfE5p6H4LchYZsegiQgbJD94ZFQ==
@@ -11696,7 +11696,7 @@ semver@^6.0.0, semver@^6.1.0, semver@^6.1.1, semver@^6.1.2, semver@^6.3.0:
   resolved "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
-semver@^7.5.3:
+semver@^7.3.5, semver@^7.5.3:
   version "7.5.4"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
   integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
@@ -12345,9 +12345,9 @@ stylehacks@^4.0.0:
     postcss-selector-parser "^3.0.0"
 
 stylelint-config-html@>=1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/stylelint-config-html/-/stylelint-config-html-1.0.0.tgz"
-  integrity sha512-rKQUUWDpaYC7ybsS6tLxddjn6DxhjSIXybElSmcTyVQj3ExhmU3q+l41ktrlwHRyY0M5SkTkZiwngvYPYmsgSQ==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-html/-/stylelint-config-html-1.1.0.tgz#999db19aea713b7ff6dde92ada76e4c1bd812b66"
+  integrity sha512-IZv4IVESjKLumUGi+HWeb7skgO6/g4VMuAYrJdlqQFndgbj6WJAXPhaysvBiXefX79upBdQVumgYcdd17gCpjQ==
 
 stylelint-config-prettier@^9.0.3:
   version "9.0.3"
@@ -12355,18 +12355,18 @@ stylelint-config-prettier@^9.0.3:
   integrity sha512-5n9gUDp/n5tTMCq1GLqSpA30w2sqWITSSEiAWQlpxkKGAUbjcemQ0nbkRvRUa0B1LgD3+hCvdL7B1eTxy1QHJg==
 
 stylelint-config-recommended-vue@^1.1.0:
-  version "1.3.0"
-  resolved "https://registry.npmjs.org/stylelint-config-recommended-vue/-/stylelint-config-recommended-vue-1.3.0.tgz"
-  integrity sha512-UEY/MZlBO2yiQdZoJm33trtqJ1MEDzBADhIAM0pTvfYbyXe5KwdbTtmALHETG1cXfDxuuUbJTvL9uENMy2Rjug==
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-recommended-vue/-/stylelint-config-recommended-vue-1.5.0.tgz#c38775859c58a928cd34d95aa79db09b69964160"
+  integrity sha512-65TAK/clUqkNtkZLcuytoxU0URQYlml+30Nhop7sRkCZ/mtWdXt7T+spPSB3KMKlb+82aEVJ4OrcstyDBdbosg==
   dependencies:
     semver "^7.3.5"
     stylelint-config-html ">=1.0.0"
     stylelint-config-recommended ">=6.0.0"
 
 stylelint-config-recommended@>=6.0.0:
-  version "7.0.0"
-  resolved "https://registry.npmjs.org/stylelint-config-recommended/-/stylelint-config-recommended-7.0.0.tgz"
-  integrity sha512-yGn84Bf/q41J4luis1AZ95gj0EQwRX8lWmGmBwkwBNSkpGSpl66XcPTulxGa/Z91aPoNGuIGBmFkcM1MejMo9Q==
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-13.0.0.tgz#c48a358cc46b629ea01f22db60b351f703e00597"
+  integrity sha512-EH+yRj6h3GAe/fRiyaoO2F9l9Tgg50AOFhaszyfov9v6ayXJ1IkSHwTxd7lB48FmOeSGDPLjatjO11fJpmarkQ==
 
 stylelint-config-recommended@^6.0.0:
   version "6.0.0"
@@ -13753,7 +13753,7 @@ yallist@^3.0.2:
 
 yallist@^4.0.0:
   version "4.0.0"
-  resolved "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
 yaml@^1.10.0, yaml@^1.10.2:
