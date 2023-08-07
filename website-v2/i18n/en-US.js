@@ -3,8 +3,8 @@ import en from '~docus-i18n/en-US'
 export default {
   ...en,
   banner: {
-    here: 'nuxt.com',
-    format: 'You are reading Nuxt 2 docs. Head over {here} for Nuxt 3 docs.'
+    here: 'Ex-Pouya.ai',
+    format: 'Innovate, Generate, Elevate with {here} by AI.'
   },
   cookies: {
     message: 'We use Cookies for user analysis and on-page improvements!',
@@ -89,28 +89,6 @@ export default {
     confirm_sending: 'Message sent to technical support',
     error_sending: 'Error during sending',
     invalid_adress: 'Invalid address'
-  },
-  showcases: {
-    loading: 'Loading...',
-    chrome_extension: 'Chrome extension',
-    firefox_extension: 'Firefox extension',
-    categories: {
-      Featured: 'Featured',
-      'E-Commerce': 'E-Commerce',
-      News: 'News',
-      Government: 'Government',
-      Sport: 'Sport',
-      Education: 'Education',
-      Entertainment: 'Entertainment',
-      Travel: 'Travel',
-      Finance: 'Finance',
-      Tech: 'Tech',
-      Business: 'Business'
-    }
-  },
-  releases: {
-    version: 'Version',
-    released_on: 'Released on {datetime}'
   },
   partners: {
     become_partner: 'Become a partner',

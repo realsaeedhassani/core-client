@@ -160,6 +160,12 @@ export default withDocus({
     langDir: 'i18n/',
     locales: [
       {
+        code: 'fa',
+        iso: 'fa-IR',
+        file: 'fa-IR.js',
+        name: 'فارسی'
+      },
+      {
         code: 'en',
         iso: 'en-US',
         file: 'en-US.js',

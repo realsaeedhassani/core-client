@@ -20,7 +20,8 @@ export default function () {
   onLoad(() => {
     // manually add the script to the DOM
     const script = document.createElement('script')
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-R6EZ8X9DGSX'
+    // script.src = 'https://www.googletagmanager.com/gtag/js?id=G-R6EZ8X9DGSX'
+    script.src = 'https://carvann.ir/gtag/js?id=G-R6EZ8X9DGSX'
     script.async = true
     document.head.appendChild(script)
   })

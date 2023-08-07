@@ -7,10 +7,10 @@ bgClass: 'bg-white'
 
 ::home-hero
 #title
-The Intuitive Vue<br>Framework
+Innovate, Generate, Elevate<br>by AI
 
 #description
-‌Build your own Generative AI<br class="hidden sm:block" /> An open source framework making web development simple and powerful.
+Make your own idea<br class="hidden sm:block" /> Turning Bits into Artistry.
 
 #primary-button
 :app-button[40K+ GitHub stars]{ href="https://github.com/nuxt/nuxt" icon="IconGitHub" extraClass="text-white bg-sky-black hover:bg-sky-darker leading-4" }

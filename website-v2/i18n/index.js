@@ -9,6 +9,6 @@ export default [
     code: 'fa',
     iso: 'fa-IR',
     file: 'fa-IR.js',
-    name: 'Farsi'
+    name: 'فارسی'
   }
 ]
