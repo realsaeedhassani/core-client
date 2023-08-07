@@ -57,15 +57,15 @@ export default defineComponent({
     const posts = ref([])
 
     useFetch(async () => {
-      const announcements = await $docus
-        .search('/announcements', { deep: true })
-        .where({ language: i18n.locale })
-        .sortBy('position', 'asc')
-        .limit(1)
-        .fetch()
+      // const announcements = await $docus
+      //   .search('/announcements', { deep: true })
+      //   .where({ language: i18n.locale })
+      //   .sortBy('position', 'asc')
+      //   .limit(1)
+      //   .fetch()
 
-      posts.value.push(announcements[0])
-      posts.value.push(events[0].events[events[0].events.length - 1])
+      // posts.value.push(announcements[0])
+      // posts.value.push(events[0].events[events[0].events.length - 1])
     })
 
     return {

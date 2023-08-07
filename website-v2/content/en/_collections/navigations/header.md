@@ -73,12 +73,6 @@ links:
         color: 'bg-indigo-darker'
   - title: 'Community'
     items:
-      - title: 'Announcements'
-        subtitle: 'Latest news about Nuxt'
-        slug: 'announcements'
-        href: 'https://nuxt.com/blog'
-        icon: 'announcements.svg'
-        color: 'bg-mint-lighter'
       - title: 'Teams'
         subtitle: 'They are Nuxt'
         slug: 'teams'

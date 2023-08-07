@@ -313,7 +313,6 @@
 /:locale/examples/modules-axios /:locale/examples/modules/axios 302!
 
 # Blog
-/blog /announcements 302!
 /:locale/blog /:locale/announcements 302!
 /blog/case-study-livementor /case-studies/livementor 302!
 /:locale/blog/case-study-livementor /:locale/case-studies/livementor 302!
@@ -651,12 +650,12 @@
 /design https://nuxt.com/design-kit 301!
 /:locale/design https://nuxt.com/design-kit 301!
 
-# Announcements
+<!-- # Announcements
 
 /announcements https://nuxt.com/blog 301!
 /:locale/announcements https://nuxt.com/blog 301!
 /announcements/:slug https://nuxt.com/blog/:slug 301!
-/:locale/announcements/:slug https://nuxt.com/blog/:slug 301!
+/:locale/announcements/:slug https://nuxt.com/blog/:slug 301! -->
 
 # Case Studies
 
