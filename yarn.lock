@@ -2482,7 +2482,7 @@
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
 
-"@vue/test-utils@^1.3.6":
+"@vue/test-utils@^1.3.0":
   version "1.3.6"
   resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-1.3.6.tgz#6656bd8fa44dd088b4ad80ff1ee28abe7e5ddf87"
   integrity sha512-udMmmF1ts3zwxUJEIAj5ziioR900reDrt6C9H3XpWPsLBx2lpHKoA4BTdd9HNIYbkGltWw+JjWJ+5O6QBwiyEw==
@@ -9390,17 +9390,18 @@ num2fraction@^1.2.2:
   resolved "https://registry.npmjs.org/num2fraction/-/num2fraction-1.2.2.tgz"
   integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
 
-nuxt-route-meta@2.3.4:
-  version "2.3.4"
-  resolved "https://registry.npmjs.org/nuxt-route-meta/-/nuxt-route-meta-2.3.4.tgz"
-  integrity sha512-7KIRyK+yxBSn47ZwP91VucgDKb2mcBquXQACztFO9/osdiVhexBzYkOhcBhC9gNssezc8PNEKvEQMHaJ2OxuJg==
+nuxt-route-meta@2.3.6:
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/nuxt-route-meta/-/nuxt-route-meta-2.3.6.tgz#dc05b52d57dd499badb7d680cf83a05d458f7f0a"
+  integrity sha512-U+aLyxTxI7jxXhrvsFqJSyfPJLTzz359U+vk+zD+RHOcNCXJj4lyHlB44a++vVkB+uths6mqQFOOlwmSK8louw==
   dependencies:
     "@babel/core" "^7.11.1"
     "@babel/traverse" "^7.13.13"
     "@dword-design/functions" "^4.0.0"
     ast-to-literal "^0.0.5"
     fs-extra "^10.0.0"
-    ts-ast-to-literal "^1.0.0"
+    ts-ast-to-literal "^2.0.0"
+    typescript "~4.2"
     vue-template-compiler "^2.6.11"
 
 nuxt-vite@^0.3.5:
@@ -12803,13 +12804,12 @@ trim-newlines@^3.0.0:
   resolved "https://registry.npmjs.org/trim-newlines/-/trim-newlines-3.0.1.tgz"
   integrity sha512-c1PTsA3tYrIsLGkJkzHF+w9F2EyxfXGo4UyJc4pFL++FMjnq0HJS69T3M7d//gKrFKwy429bouPescbjecU+Zw==
 
-ts-ast-to-literal@^1.0.0:
-  version "1.0.6"
-  resolved "https://registry.npmjs.org/ts-ast-to-literal/-/ts-ast-to-literal-1.0.6.tgz"
-  integrity sha512-TXilyDN/zxsolpMVP2UfLNrXlySudx5+p/KgnNvZ4h8aAXBYs3LtURZ+IbsG2Z6hXweC0YIgZyGbXCOYg8A0nQ==
+ts-ast-to-literal@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ts-ast-to-literal/-/ts-ast-to-literal-2.0.0.tgz#f0ea5f9188877653c0695c8f22a46a18b97f227e"
+  integrity sha512-+a25j8FGuuefXMnS1i2xKs6/IA4cgFfw+JpGhU2Px7n0OpOpIDzweK+TzQri1El9WNoWupj2SoFpJSJDJMl9bA==
   dependencies:
     "@dword-design/functions" "^4.0.6"
-    typescript "^4.7.4"
 
 ts-node@^9:
   version "9.1.1"
@@ -12938,10 +12938,15 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
 
-typescript@^4.4.3, typescript@^4.7.4:
+typescript@^4.4.3:
   version "4.9.5"
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz"
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
+
+typescript@~4.2:
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.4.tgz#8610b59747de028fda898a8aef0e103f156d0961"
+  integrity sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==
 
 ua-parser-js@^0.7.28:
   version "0.7.31"
