@@ -76,7 +76,6 @@ export default withDocus({
     '~/plugins/adblock.client',
     '~/plugins/clipboard.client',
     '~/plugins/v-tooltip.ts',
-    '~/plugins/showcases',
     '~/plugins/nav',
     '~/plugins/timer'
   ],
