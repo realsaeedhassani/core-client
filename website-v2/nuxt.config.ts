@@ -6,6 +6,10 @@ export default withDocus({
   rootDir: __dirname,
   head: {
     titleTemplate: 'Expouya - %s',
+    htmlAttrs: {
+      lang: process.env.NUXT_LOCALE,
+      dir: ['fa', 'ar', 'he'].includes(process.env.NUXT_LOCALE) ? 'rtl' : 'ltr'
+    },
     link: [
       {
         rel: 'stylesheet',
