@@ -64,13 +64,6 @@ export default defineComponent({
         .limit(1)
         .fetch()
 
-      const events = await $docus
-        .search('/collections/events', { deep: true })
-        .where({ slug: { $ne: '' }, language: i18n.locale })
-        .sortBy('position', 'desc')
-        .limit(1)
-        .fetch()
-
       posts.value.push(announcements[0])
       posts.value.push(events[0].events[events[0].events.length - 1])
     })
