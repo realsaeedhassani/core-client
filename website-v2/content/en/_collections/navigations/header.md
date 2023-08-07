@@ -43,7 +43,7 @@ links:
         color: 'bg-green-700'
       - title: 'Master courses'
         subtitle: 'Learn more with experts'
-        href: 'https://masteringnuxt.com/?utm_source=nuxt&utm_medium=link&utm_campaign=nsite'
+        href: 'https://carvann.ir/?utm_source=nuxt&utm_medium=link&utm_campaign=nsite'
         icon: 'master-courses.svg'
         color: 'bg-green-800'
   - title: 'Explore'
