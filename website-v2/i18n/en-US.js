@@ -4,7 +4,7 @@ export default {
   ...en,
   banner: {
     here: 'Ex-Pouya.ai',
-    format: 'Innovate, Generate, Elevate with {here} by AI.'
+    format: 'اخبار و اطلاعیه های {here} در این قسمت قرار میگیرد.'
   },
   cookies: {
     message: 'We use Cookies for user analysis and on-page improvements!',
@@ -33,7 +33,7 @@ export default {
   sidebar: {
     ads: {
       fallback: {
-        title: 'Nuxt needs you!',
+        title: 'Nuxt needs you!', 
         description: 'By allowing nuxtjs.org on your Ad-Blocker, you support our work and help us financially.'
       }
     }

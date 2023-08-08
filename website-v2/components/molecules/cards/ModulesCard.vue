@@ -84,7 +84,7 @@ export default defineComponent({
       }
 
       if (icon) {
-        return `https://nuxt.com/modules/icons/${icon}`
+        return `https://_example.com/modules/icons/${icon}`
       }
 
       return `/img/modules/categories/${(category || '').toLowerCase()}.svg`

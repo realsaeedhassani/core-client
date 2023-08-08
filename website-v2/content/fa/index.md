@@ -227,7 +227,7 @@ hoverClass: 'hover:bg-sky-surface'
 title: 'ماژول‌ها'
 description: 'لیست ماژول‌های ما را برای افزایش توانایی پروژه Nuxt خود کشف کنید. توسط تیم Nuxt و جامعه ایجاد شده‌اند.'
 image: '/img/home/explore/gem-explore-2.svg'
-to: 'https://nuxt.com/modules'
+to: 'https://_example.com/modules'
 hoverClass: 'hover:bg-sky-surface'
 ---
 ::
@@ -512,7 +512,7 @@ hoverClass: 'hover:bg-sky-surface'
 title: 'Modules'
 description: 'Discover our list of modules to supercharge your Nuxt project. Created by the Nuxt team and community.'
 image: '/img/home/explore/gem-explore-2.svg'
-to: 'https://nuxt.com/modules'
+to: 'https://_example.com/modules'
 hoverClass: 'hover:bg-sky-surface'
 ---
 ::

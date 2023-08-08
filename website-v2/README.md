@@ -1,6 +1,6 @@
 <img align="center" src="./.github/logo.svg"/><br/>
 
-## Website and documentation of [Nuxt 2](https://v2.nuxt.com)
+## Website and documentation of [Nuxt 2](https://v2._example.com)
 
 We are using [Docus](https://docus.dev) to write our documentation (*we plan to open source it in the following weeks once the documentation is ready*).
 

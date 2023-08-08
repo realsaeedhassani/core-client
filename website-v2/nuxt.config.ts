@@ -5,7 +5,7 @@ import { withDocus } from '@docus/app'
 export default withDocus({
   rootDir: __dirname,
   head: {
-    titleTemplate: 'Expouya - %s',
+    titleTemplate: '%s',
     htmlAttrs: {
       lang: process.env.NUXT_LOCALE,
       dir: ['fa', 'ar', 'he'].includes(process.env.NUXT_LOCALE) ? 'rtl' : 'ltr'
@@ -29,12 +29,12 @@ export default withDocus({
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://v2.nuxt.com/preview.png'
+        content: 'https://v2._example.com/preview.png'
       },
       {
         hid: 'og:image:secure_url',
         property: 'og:image:secure_url',
-        content: 'https://v2.nuxt.com/preview.png'
+        content: 'https://v2._example.com/preview.png'
       },
       {
         hid: 'og:image:alt',
@@ -44,7 +44,7 @@ export default withDocus({
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://v2.nuxt.com/preview.png'
+        content: 'https://v2._example.com/preview.png'
       }
     ],
     script: [
@@ -57,7 +57,8 @@ export default withDocus({
       class: ['min-w-xs']
     }
   },
-  css: [resolve(__dirname, './assets/nuxt.css')],
+  css: [resolve(__dirname, './assets/nuxt.css'), 
+        resolve(__dirname, './assets/fonts/index.css')],
   build: {
     transpile: ['ohmyfetch'],
     loaders: {
@@ -151,13 +152,13 @@ export default withDocus({
       'npmjs.com',
       'cdn.krutiepatel.com',
       'nuxtjs.org',
-      'v2.nuxt.com',
+      'v2._example.com',
       'i.imgur.com',
       'avatars0.githubusercontent.com',
       'avatars1.githubusercontent.com',
       'avatars2.githubusercontent.com',
       'avatars3.githubusercontent.com',
-      'nuxt.com/modules'
+      '_example.com/modules'
     ]
   },
   i18n: {

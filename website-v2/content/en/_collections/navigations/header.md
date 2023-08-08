@@ -50,7 +50,7 @@ links:
         color: 'bg-indigo-light'
       - title: 'Modules'
         subtitle: 'Extend the power of Nuxt'
-        href: 'https://nuxt.com/modules'
+        href: 'https://_example.com/modules'
         icon: 'modules.svg'
         color: 'bg-indigo'
       - title: 'Themes'
@@ -82,7 +82,7 @@ links:
       - title: 'Sponsors'
         subtitle: 'They trust us'
         slug: 'sponsors'
-        href: 'https://nuxt.com/support/us'
+        href: 'https://_example.com/support/us'
         icon: 'sponsors.svg'
         color: 'bg-mint-dark'
 ---

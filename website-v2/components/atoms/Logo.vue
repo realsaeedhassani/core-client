@@ -31,7 +31,7 @@ export default {
       }
     },
     designKit() {
-      window.location.href = 'https://nuxt.com/design-kit'
+      window.location.href = 'https://_example.com/design-kit'
     }
   }
 }

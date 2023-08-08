@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'IS Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('./IRANSansXFaNum-Bold.ttf') format('truetype')
+  }
+  
+  @font-face {
+    font-family: 'IS Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('./IRANSansXFaNum-Regular.ttf') format('truetype')
+  }
+  
+  @font-face {
+    font-family: 'IS Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('./IRANSansXFaNum-Medium.ttf') format('truetype')
+  }
+  
+  @font-face {
+    font-family: 'IS Light';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('./IRANSansXFaNum-Light.ttf') format('truetype')
+  }
