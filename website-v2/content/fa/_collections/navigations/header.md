@@ -1,6 +1,6 @@
 ---
 links: 
-  - title: 'یادگیری'
+  - title: 'مستندات'
     items:
       - title: 'مستندات'
         subtitle: 'به سرعت وب‌سایت‌های سریع ایجاد کنید'
@@ -15,7 +15,7 @@ links:
         to: '/tutorials'
         icon: 'tutorials.svg'
         color: 'bg-green-700'
-  - title: 'کاوش'
+  - title: 'هوش مصنوعی'
     items:
       - title: 'دوره‌های ویدیویی'
         subtitle: 'گام به گام یاد بگیرید'
@@ -23,7 +23,7 @@ links:
         to: '/video-courses'
         icon: 'video-courses.svg'
         color: 'bg-indigo-darker'
-  - title: 'جامعه'
+  - title: 'تیم ما'
     items:
       - title: 'تیم‌ها'
         subtitle: 'آن‌ها Nuxt هستند'
