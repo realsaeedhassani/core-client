@@ -3,7 +3,7 @@ template: blank
 title: 'Generative AI'
 description: 'Build your Vue 2 application with confidence using Nuxt 2. An open source framework making web development simple and powerful.'
 bgClass: 'bg-white'
----
+--- 
 
 ::home-hero
 #title
