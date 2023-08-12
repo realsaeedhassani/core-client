@@ -16,14 +16,14 @@ jobs:
       with:
         node-version: 18.14.2
 
-      - name: Install dependencies
-        run: yarn
+    - name: Install dependencies
+      run: yarn
 
-      - name: Generate
-        run: yarn generate
+    - name: Generate
+      run: yarn generate
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
