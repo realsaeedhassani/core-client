@@ -7,7 +7,7 @@
       <div class="rounded-md w-8 h-8 p-2" :class="colorClass">
         <img :src="`/img/header/${icon}`" :alt="title" />
       </div>
-      <div>
+      <div class="text-right pr-2">
         <IconExternalLink v-if="isExternal" class="icon w-2 absolute right-4" />
         <h5 class="font-bold text-sm">{{ title }}</h5>
         <p class="text-xs">{{ subtitle }}</p>

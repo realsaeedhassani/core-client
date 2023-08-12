@@ -6,12 +6,12 @@
           <p class="flex">
             <span>$&nbsp;</span
             ><span class="fromcli__yarn__createnuxtapp"
-              >npx
-              <span class="text-primary">create-nuxt-app</span>
-              project-name</span
+              >متن
+              <span class="text-primary">پیام چت</span>
+              رو وارد کنید!</span
             >
           </p>
-          <p class="fromcli__loading">> Loading...</p>
+          <p class="fromcli__loading">> در حال بارگزاری...</p>
           <div class="fromcli__progressbars__install">
             <div class="fromcli__progressbar"></div>
             <div class="fromcli__progressbar"></div>
@@ -145,7 +145,7 @@
 
 <style lang="postcss" scoped>
 .fromcli__container {
-  @apply absolute top-0 left-0 mt-8 grid grid-cols-12 w-full;
+  @apply absolute top-0 right-0 mt-8 grid grid-cols-12 w-full;
 }
 
 .fromcli__code {
@@ -154,12 +154,12 @@
 }
 
 .fromcli__display__logo {
-  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+  @apply absolute top-1/2 right-1/2 transform -translate-x-1/2 -translate-y-1/2;
   height: 60px;
 }
 
 .fromcli__display {
-  @apply absolute bg-gray-100 right-0 top-full lg:top-1/2 transform -translate-y-1/2 rounded-md w-full lg:w-1/2 opacity-0 overflow-hidden;
+  @apply absolute bg-gray-100 left-0 top-full lg:top-1/2 transform -translate-y-1/2 rounded-md w-full lg:w-1/2 opacity-0 overflow-hidden;
   height: 120%;
   animation: appear 300ms cubic-bezier(0.83, 0, 0.17, 1) forwards 3.2s,
     slideRight 300ms cubic-bezier(0.83, 0, 0.17, 1) forwards 3.2s;
@@ -171,7 +171,7 @@
 }
 
 .fromcli__display__content {
-  @apply absolute top-0 left-0 h-full w-full flex flex-col justify-center items-start px-16;
+  @apply absolute top-0 right-0 h-full w-full flex flex-col justify-center items-start px-16;
   & img {
     @apply opacity-0;
     transform: translateY(40px);
@@ -221,7 +221,7 @@
 
 span[class*='fromcli__yarn'] {
   @apply inline-block overflow-hidden whitespace-nowrap w-0;
-  border-right: 0.15em solid transparent;
+  border-left: 0.15em solid transparent;
   letter-spacing: 0.75px;
   &.fromcli__yarn__createnuxtapp {
     animation: typingVeryLong 1.5s steps(12, end) forwards, blink-caret 0.75s step-end 4 backwards;
@@ -365,13 +365,13 @@ span[class*='fromcli__yarn'] {
 }
 
 .fromcli__code__ide {
-  @apply absolute left-0 w-full pt-8 h-full opacity-0;
+  @apply absolute right-0 w-full pt-8 h-full opacity-0;
   top: 162px;
   animation: appear 150ms forwards ease 10.6s;
 }
 
 .fromcli__code__ide__head {
-  @apply absolute h-10 w-full top-4 -left-5 border-b-2 border-gray-400;
+  @apply absolute h-10 w-full top-4 -right-5 border-b-2 border-gray-400;
 }
 
 .fromcli__code__ide__head__circles {
@@ -383,7 +383,7 @@ span[class*='fromcli__yarn'] {
 }
 
 .fromcli__code__ide__head__file {
-  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-50;
+  @apply absolute top-1/2 right-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-50;
 }
 
 .fromcli__code__ide__content {
@@ -391,7 +391,7 @@ span[class*='fromcli__yarn'] {
   @apply pl-12 pt-10;
   & p {
     @apply whitespace-nowrap;
-    border-right: 0.15em solid transparent;
+    border-left: 0.15em solid transparent;
     letter-spacing: 0.75px;
   }
   & p:nth-child(2) {
@@ -409,7 +409,7 @@ span[class*='fromcli__yarn'] {
 }
 
 .fromcli__code__ide__side {
-  @apply absolute w-12 -left-5 border-r-2 border-gray-400 flex flex-col items-center justify-start pt-3;
+  @apply absolute w-12 -right-8 border-r-2 border-gray-400 flex flex-col items-center justify-start pt-3;
   top: 65px;
   height: 103%;
 }
@@ -540,10 +540,10 @@ span[class*='fromcli__yarn'] {
 
 @keyframes slideSidebarRight {
   0% {
-    left: -150px;
+    right: -150px;
   }
   100% {
-    @apply left-0;
+    @apply right-0;
   }
 }
 
@@ -567,10 +567,10 @@ span[class*='fromcli__yarn'] {
 
 @keyframes slideContent {
   0% {
-    @apply left-8;
+    @apply right-8;
   }
   100% {
-    @apply left-30;
+    @apply right-30;
   }
 }
 </style>

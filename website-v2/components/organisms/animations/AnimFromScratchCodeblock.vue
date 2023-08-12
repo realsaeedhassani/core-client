@@ -5,9 +5,9 @@
         <div class="fromscratch__code__bash">
           <p class="flex">
             <span>$&nbsp;</span
-            ><span class="fromscratch__yarn__addnuxt">yarn add <span class="text-green">nuxt</span></span>
+            ><span class="fromscratch__yarn__addnuxt">متن پیام چت برای  <span class="text-green">ایجاد تصویر</span></span>
           </p>
-          <p class="fromscratch__loading">> Loading...</p>
+          <p class="fromscratch__loading">> درحال ایجاد...</p>
           <div class="fromscratch__progressbars__install">
             <div class="fromscratch__progressbar"></div>
             <div class="fromscratch__progressbar"></div>
@@ -80,7 +80,7 @@
       </div>
       <div class="fromscratch__display__content">
         <img loading="lazy" src="~/static/img/home/learn/master/sidebar.svg" />
-        <p>Hello world !</p>
+        <p>تصویر تولید شده...</p>
       </div>
     </div>
   </div>
@@ -88,7 +88,7 @@
 
 <style lang="postcss" scoped>
 .fromscratch__container {
-  @apply absolute top-0 left-0 mt-8 grid grid-cols-12 w-full;
+  @apply absolute top-0 right-0 mt-8 grid grid-cols-12 w-full;
 }
 
 .fromscratch__code {
@@ -96,13 +96,13 @@
 }
 
 .fromscratch__display__logo {
-  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+  @apply absolute top-1/2 right-1/2 transform -translate-x-1/2 -translate-y-1/2;
   height: 80px;
 }
 
 .fromscratch__display {
   top: 95%;
-  @apply absolute bg-gray-100 right-0 lg:top-1/2 transform -translate-y-1/2 rounded-md w-full lg:w-1/2 opacity-0 overflow-hidden;
+  @apply absolute bg-gray-100 left-0 lg:top-1/2 transform -translate-y-1/2 rounded-md w-full lg:w-1/2 opacity-0 overflow-hidden;
   height: 120%;
   animation: appear 300ms cubic-bezier(0.83, 0, 0.17, 1) forwards 3.2s,
     slideRight 300ms cubic-bezier(0.83, 0, 0.17, 1) forwards 3.2s;
@@ -132,12 +132,12 @@
 }
 
 .fromscratch__display__progressbar__background {
-  @apply absolute left-0 top-0 w-full bg-gray-400 rounded-full;
+  @apply absolute right-0 top-0 w-full bg-gray-400 rounded-full;
   height: 10px;
 }
 
 .fromscratch__display__progressbar__progress {
-  @apply absolute left-0 top-0 w-0 bg-primary rounded-full opacity-0;
+  @apply absolute right-0 top-0 w-0 bg-primary rounded-full opacity-0;
   height: 10px;
   animation: progress cubic-bezier(0.83, 0, 0.17, 1) 1.5s forwards 3.8s;
 }
@@ -153,7 +153,7 @@
 
 span[class*='fromscratch__yarn'] {
   @apply inline-block overflow-hidden whitespace-nowrap w-0;
-  border-right: 0.15em solid transparent;
+  border-left: 0.15em solid transparent;
   letter-spacing: 0.75px;
   &.fromscratch__yarn__addnuxt {
     animation: typingSmall 1.5s steps(12, end) forwards, blink-caret 0.75s step-end 4 backwards;
@@ -221,13 +221,13 @@ span[class*='fromscratch__yarn'] {
 }
 
 .fromscratch__code__ide {
-  @apply absolute top-0 left-0 w-full pt-8 h-full opacity-0;
+  @apply absolute top-0 right-0 w-full pt-8 h-full opacity-0;
   animation: appear 150ms forwards ease 7s;
 }
 
 .fromscratch__code__ide__head {
   width: 112%;
-  @apply absolute h-10 lg:w-full top-6 -left-5 border-b-2 border-stone-lightest;
+  @apply absolute h-10 lg:w-full top-6 -right-5 border-b-2 border-stone-lightest;
 }
 
 .fromscratch__code__ide__head__circles {
@@ -241,7 +241,7 @@ span[class*='fromscratch__yarn'] {
 }
 
 .fromscratch__code__ide__head__file {
-  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-bg-gray-400;
+  @apply absolute top-1/2 right-1/2 transform -translate-x-1/2 -translate-y-1/2 text-bg-gray-400;
 }
 
 .fromscratch__code__ide__content {
@@ -249,7 +249,7 @@ span[class*='fromscratch__yarn'] {
   @apply pl-12 pt-12;
   & p {
     @apply overflow-hidden whitespace-nowrap w-0;
-    border-right: 0.15em solid transparent;
+    border-left: 0.15em solid transparent;
     letter-spacing: 0.75px;
   }
   & p:nth-child(2),
@@ -280,7 +280,7 @@ span[class*='fromscratch__yarn'] {
 }
 
 .fromscratch__code__ide__side {
-  @apply absolute w-12 -left-5 border-r-2 border-gray-400 flex flex-col items-center justify-start pt-3;
+  @apply absolute w-12 -right-5 border-r-2 border-gray-400 flex flex-col items-center justify-start pt-3;
   top: 70px;
   height: 103%;
 }
@@ -393,10 +393,10 @@ span[class*='fromscratch__yarn'] {
 
 @keyframes slideSidebarRight {
   0% {
-    left: -150px;
+    right: -150px;
   }
   100% {
-    @apply left-0;
+    @apply right-0;
   }
 }
 
@@ -411,10 +411,10 @@ span[class*='fromscratch__yarn'] {
 
 @keyframes slideContent {
   0% {
-    @apply left-8;
+    @apply right-8;
   }
   100% {
-    @apply left-28;
+    @apply right-28;
   }
 }
 </style>
