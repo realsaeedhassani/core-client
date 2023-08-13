@@ -16,7 +16,7 @@
             <span class="truncate">Generative AI</span>
           </AppLink>
         </div> -->
-        <h2 class="font-normal font-serif text-display-5 xs:text-display-4 md:text-display-3 2xl:text-display-2 mb-6">
+        <h2 class="font-normal font-serif text-display-6 xs:text-display-5 md:text-display-5 2xl:text-display-3 mb-6">
           <Markdown use="title" unwrap="p" />
         </h2>
         <h3

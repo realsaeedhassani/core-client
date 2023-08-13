@@ -4,7 +4,7 @@
     class="absolute top-0 left-0 z-10 w-full h-full select-none pointer-events-none transition-opacity ease-out duration-800 mt-18"
     :class="[hidden ? 'opacity-0' : 'opacity-100']"
   >
-    <img
+    <!-- <img
       ref="gem1"
       data-speed="2"
       loading="lazy"
@@ -51,7 +51,7 @@
       :src="`/img/home/hero/gem-2.svg`"
       class="hidden sm:block absolute left-20 top-0 mt-20 lg:top-1/3 lg:-mt-2 rotate-45"
       alt="An image of a green gem from nuxt galaxy"
-    />
+    /> -->
   </div>
 </template>
 

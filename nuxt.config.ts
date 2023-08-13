@@ -7,8 +7,8 @@ export default withDocus({
   head: {
     titleTemplate: '%s',
     htmlAttrs: {
-      lang: process.env.NUXT_LOCALE,
-      dir: ['fa', 'ar', 'he'].includes(process.env.NUXT_LOCALE) ? 'rtl' : 'ltr'
+      lang: 'fa',
+      dir: ['fa', 'ar', 'he'].includes('fa') ? 'rtl' : 'ltr'
     },
     link: [
       {
