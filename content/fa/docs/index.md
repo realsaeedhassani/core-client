@@ -6,6 +6,6 @@ title: Docs
 navigation:
   exclusive: true
   collapse: true
-  redirect: /docs/get-started/installation
+  redirect: /___documentation___get-started/installation
 layout.aside: true
 ---

@@ -30,12 +30,12 @@ npm run generate
 It will create a `dist` folder with everything inside ready to be deployed on GitHub Pages hosting. Branch `gh-pages` for project repository OR branch `master` for user or organization site
 
 ::alert{type="info"}
-<b>Info:</b> If you use a custom domain for your GitHub Pages and put `CNAME` file, it is recommended that CNAME file is put in the `static` directory. [More documentation](/docs/directory-structure/static) about it.
+<b>Info:</b> If you use a custom domain for your GitHub Pages and put `CNAME` file, it is recommended that CNAME file is put in the `static` directory. [More documentation](/___documentation___directory-structure/static) about it.
 ::
 
 ## Deploying to GitHub Pages for repository
 
-First of all, you want to make sure to use [static target](/docs/features/deployment-targets) since we are hosting on GitHub pages:
+First of all, you want to make sure to use [static target](/___documentation___features/deployment-targets) since we are hosting on GitHub pages:
 
 ```js[nuxt.config.js]
 export default {
@@ -45,9 +45,9 @@ export default {
 
 If you are creating GitHub Pages for one specific repository, and you don't have any custom domain, the URL of the page will be in this format: `http://<username>.github.io/<repository-name>`.
 
-If you deployed `dist` folder without adding [router base](/docs/configuration-glossary/configuration-router), when you visit the deployed site you will find that the site is not working due to missing assets. This is because we assume that the website root will be `/`, but in this case it is `/<repository-name>`.
+If you deployed `dist` folder without adding [router base](/___documentation___configuration-glossary/configuration-router), when you visit the deployed site you will find that the site is not working due to missing assets. This is because we assume that the website root will be `/`, but in this case it is `/<repository-name>`.
 
-To fix the issue we need to add [router base](/docs/configuration-glossary/configuration-router#base) configuration in `nuxt.config.js`:
+To fix the issue we need to add [router base](/___documentation___configuration-glossary/configuration-router#base) configuration in `nuxt.config.js`:
 
 ```js[nuxt.config.js]
 export default {
@@ -171,15 +171,15 @@ On completion, you'll see your `gh-pages` branch updated as well as your site.
 
 To deploy with [Travis CI](https://travis-ci.org/), a free for open source projects build server, sign in via your GitHub account, granting Travis access to view your repositories, and then enable the build server for your repository by toggling the switch next to your repositories name in the list displayed.
 
-![Travis Builder Server Enable](/img/docs/github_pages_travis_01.png)
+![Travis Builder Server Enable](/img/___documentation___github_pages_travis_01.png)
 
 Next, click the cog icon beside your repository name to configure the general settings of the build sever and enable the 'Build only if .travis.yml is present' feature by toggling the switch.
 
-![Travis Builder Server Settings](/img/docs/github_pages_travis_02.png)
+![Travis Builder Server Settings](/img/___documentation___github_pages_travis_02.png)
 
 On the same screen, scroll down to the Environment Variables section and create a new variables named `GITHUB_ACCESS_TOKEN` and in the value field paste a copy of the GitHub personal access token your created earlier and click the 'Add' button.
 
-![Travis Builder Server Environment Variables](/img/docs/github_pages_travis_03.png)
+![Travis Builder Server Environment Variables](/img/___documentation___github_pages_travis_03.png)
 
 Finally, create a `.travis.yml` configuration file in the root of your repository with the following contents
 
@@ -223,7 +223,7 @@ git push origin
 
 Now, whenever you commit any changes to your repository, from within Travis, you'll see a new build start up
 
-![Travis Builder Server Output](/img/docs/github_pages_travis_04.png)
+![Travis Builder Server Output](/img/___documentation___github_pages_travis_04.png)
 
 and on completion, you'll see your GitHub pages site automatically updated.
 
@@ -233,7 +233,7 @@ To deploy via [Appveyor](https://www.appveyor.com), another free for open source
 
 Once signed in, click the 'New project' link and then click the 'Add' button beside your repository name in the list displayed to enable the build server on your repository.
 
-![Appveyor Builder Server Enable](/img/docs/github_pages_appveyor_01.png)
+![Appveyor Builder Server Enable](/img/___documentation___github_pages_appveyor_01.png)
 
 Next, in the root of your repository, create an `appveyor.yml` configuration file with the following contents
 
@@ -260,7 +260,7 @@ install:
   - npm install
   # generate static files
   - npm run generate
-  # configure global git credentials store (https://www.appveyor.com/docs/how-to/git-push/)
+  # configure global git credentials store (https://www.appveyor.com/___documentation___how-to/git-push/)
   - git config --global credential.helper store
   - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:github_access_token):x-oauth-basic@github.com`n"
   - git config --global user.email $env:github_email
@@ -288,6 +288,6 @@ git push origin
 
 Now, whenever you commit any changes to your repository, from within Appveyor, you'll see a new build start up
 
-![Appveyor Builder Server Output](/img/docs/github_pages_appveyor_02.png)
+![Appveyor Builder Server Output](/img/___documentation___github_pages_appveyor_02.png)
 
 and on completion, you'll see your GitHub pages site automatically updated.

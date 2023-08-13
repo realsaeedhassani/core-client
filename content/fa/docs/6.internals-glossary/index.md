@@ -1,5 +1,5 @@
 ---
 navigation:
   collapse: true
-  redirect: /docs/internals-glossary/context
+  redirect: /___documentation___internals-glossary/context
 ---

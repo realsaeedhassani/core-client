@@ -1,5 +1,5 @@
 ---
 navigation:
   collapse: false
-  redirect: /docs/get-started/installation
+  redirect: /___documentation___get-started/installation
 ---

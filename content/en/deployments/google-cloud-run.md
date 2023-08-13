@@ -106,7 +106,7 @@ Run the following command to start the build process:
 
 `gcloud builds submit --tag gcr.io/<YOUR_GOOGLE_CLOUD_PROJECT_ID>/my-nuxt-app-name:1.0.0 .`
 
-!Attention: if you want to implement continuous delivery or .env files configurations, you will have to use a [Cloud Build configuration file](https://cloud.google.com/cloud-build/docs/build-config).
+!Attention: if you want to implement continuous delivery or .env files configurations, you will have to use a [Cloud Build configuration file](https://cloud.google.com/cloud-build/___documentation___build-config).
 
 ## Deploying your application on Cloud Run
 

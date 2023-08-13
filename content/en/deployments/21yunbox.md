@@ -14,14 +14,14 @@ How to deploy Nuxt on 21YunBox?
 
 ---
 
-[21YunBox](https://www.21yunbox.com) provides blazing fast Chinese CDN, continuous deployment, one-click HTTPS and [other services like managed databases and backend web services](https://www.21yunbox.com/docs/), providing an avenue to launch web projects in China.
+[21YunBox](https://www.21yunbox.com) provides blazing fast Chinese CDN, continuous deployment, one-click HTTPS and [other services like managed databases and backend web services](https://www.21yunbox.com/___documentation___), providing an avenue to launch web projects in China.
 
 21YunBox includes the following features:
 
 - Continuous, automatic builds & deploys from GitHub and Gitee
 - Automatic SSL certificates through [Let's Encrypt](https://letsencrypt.org)
 - Instant cache invalidation with a blazing fast, Chinese CDN
-- Unlimited [custom domains](https://www.21yunbox.com/docs/#/custom-domains)
+- Unlimited [custom domains](https://www.21yunbox.com/___documentation___#/custom-domains)
 - Automatic [Brotli compression](https://en.wikipedia.org/wiki/Brotli) for faster sites
 - Native HTTP/2 support
 - Automatic HTTP → HTTPS redirects
@@ -58,4 +58,4 @@ Every deploy automatically and instantly invalidates the CDN cache, so your user
 
 ## Custom domains
 
-Add your own domains to your site easily using 21YunBox's [custom domains](https://www.21yunbox.com/docs/#/custom-domains) guide.
+Add your own domains to your site easily using 21YunBox's [custom domains](https://www.21yunbox.com/___documentation___#/custom-domains) guide.

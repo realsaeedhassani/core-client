@@ -1,5 +1,5 @@
 ---
 navigation:
   collapse: true
-  redirect: /docs/concepts/views
+  redirect: /___documentation___concepts/views
 ---

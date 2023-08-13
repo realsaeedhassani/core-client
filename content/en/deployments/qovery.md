@@ -18,7 +18,7 @@ How to deploy Nuxt on Qovery?
 
 ## Prerequisites
 
-This guide assumes you already have a Nuxt project to deploy. If you need a project, follow the [Get Started](/docs/get-started/installation) guide.
+This guide assumes you already have a Nuxt project to deploy. If you need a project, follow the [Get Started](/___documentation___get-started/installation) guide.
 
 ## Setup
 

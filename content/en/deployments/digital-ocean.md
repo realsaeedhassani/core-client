@@ -56,8 +56,8 @@ Now that App Platform is connected to your repo, it will automatically build and
 
 ## Add custom domains
 
-Add your own domains to your site easily on Settings > Domains > Add domain or follow this [How to Manage Domains in App Platform](https://www.digitalocean.com/docs/app-platform/how-to/manage-domains/) guide.
+Add your own domains to your site easily on Settings > Domains > Add domain or follow this [How to Manage Domains in App Platform](https://www.digitalocean.com/___documentation___app-platform/how-to/manage-domains/) guide.
 
 ## Deploy to DigitalOcean button
 
-The Deploy to DigitalOcean Button allows users to launch an application onto App Platform. It can be embedded in the README file for GitHub repositories, allowing users who are browsing your repository to deploy your code in one click, adding a .yaml file into your repo. Check it out at [How to Add a "Deploy to DigitalOcean" Button to Your Repository](https://www.digitalocean.com/docs/app-platform/how-to/add-deploy-do-button/)
+The Deploy to DigitalOcean Button allows users to launch an application onto App Platform. It can be embedded in the README file for GitHub repositories, allowing users who are browsing your repository to deploy your code in one click, adding a .yaml file into your repo. Check it out at [How to Add a "Deploy to DigitalOcean" Button to Your Repository](https://www.digitalocean.com/___documentation___app-platform/how-to/add-deploy-do-button/)

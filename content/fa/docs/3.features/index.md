@@ -1,5 +1,5 @@
 ---
 navigation:
   collapse: true
-  redirect: /docs/features/rendering-modes
+  redirect: /___documentation___features/rendering-modes
 ---

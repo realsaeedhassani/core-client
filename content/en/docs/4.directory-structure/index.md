@@ -1,5 +1,5 @@
 ---
 navigation:
   collapse: true
-  redirect: /docs/directory-structure/nuxt
+  redirect: /___documentation___directory-structure/nuxt
 ---

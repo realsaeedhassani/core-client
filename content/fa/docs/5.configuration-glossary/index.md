@@ -1,5 +1,5 @@
 ---
 navigation:
   collapse: true
-  redirect: /docs/configuration-glossary/configuration-alias
+  redirect: /___documentation___configuration-glossary/configuration-alias
 ---

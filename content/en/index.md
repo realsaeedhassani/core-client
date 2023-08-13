@@ -3,7 +3,7 @@ template: blank
 title: 'Generative AI'
 description: 'Build your Vue 2 application with confidence using Nuxt 2. An open source framework making web development simple and powerful.'
 bgClass: 'bg-white'
---- 
+---
 
 ::home-hero
 #title
@@ -16,7 +16,7 @@ Make your own idea<br class="hidden sm:block" /> Turning Bits into Artistry.
 :app-button[40K+ GitHub stars]{ href="https://github.com/nuxt/nuxt" icon="IconGitHub" extraClass="text-white bg-sky-black hover:bg-sky-darker leading-4" }
 
 #secondary-button
-:app-button[Get started]{ to="/docs/get-started/installation" }
+:app-button[Get started]{ to="/___documentation___get-started/installation" }
 ::
 
 ::home-learn-master
@@ -31,7 +31,7 @@ category: Use
 Learn everything you need to know, from beginner to master.
 
 #bottom
-:app-button[Start learning]{to="/docs/get-started/installation"}
+:app-button[Start learning]{to="/___documentation___get-started/installation"}
 ::
 
 ::home-features
@@ -166,7 +166,7 @@ category: Learn
 title: Documentation
 description: 'Discover Nuxt concepts and find a complete API reference.'
 image: /img/home/learn/guides/gem-1.svg
-to: '/docs/get-started/installation'
+to: '/___documentation___get-started/installation'
 hoverClass: 'hover:bg-sky-darker'
 ---
 ::

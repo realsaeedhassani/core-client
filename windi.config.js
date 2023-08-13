@@ -88,17 +88,6 @@ export default {
         DEFAULT: '#0064C8',
         dark: '#0055AA',
         darker: '#00468C'
-      },
-      sand: {
-        surface: '#F5F5EB',
-        lightest: '#EDEDD5',
-        lighter: '#DEDEB6',
-        light: '#B4B48C',
-        DEFAULT: '#9C9C6A',
-        dark: '#636330',
-        darker: '#3B3B00',
-        darkest: '#2D2E01',
-        black: '#1F2100'
       }
     },
     extend: {

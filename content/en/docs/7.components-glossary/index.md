@@ -1,5 +1,5 @@
 ---
 navigation:
   collapse: true
-  redirect: /docs/components-glossary/fetch
+  redirect: /___documentation___components-glossary/fetch
 ---

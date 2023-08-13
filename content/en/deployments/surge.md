@@ -47,8 +47,8 @@ surge dist/
 
 Done :)
 
-If you have a project with [dynamic routes](/docs/directory-structure/pages#dynamic-pages), take a look at the [`generate` configuration](/docs/configuration-glossary/configuration-generate) to tell Nuxt how to generate these dynamic routes if you are using Nuxt <= v2.12.
+If you have a project with [dynamic routes](/___documentation___directory-structure/pages#dynamic-pages), take a look at the [`generate` configuration](/___documentation___configuration-glossary/configuration-generate) to tell Nuxt how to generate these dynamic routes if you are using Nuxt <= v2.12.
 
 ::alert{type="warning"}
-When generating your web application with `nuxt generate`, [the context](/docs/internals-glossary/context) given to [asyncData](/docs/features/data-fetching) will not have `req` and `res`.
+When generating your web application with `nuxt generate`, [the context](/___documentation___internals-glossary/context) given to [asyncData](/___documentation___features/data-fetching) will not have `req` and `res`.
 ::

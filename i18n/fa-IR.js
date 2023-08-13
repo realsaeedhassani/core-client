@@ -278,7 +278,7 @@ export default {
       modules: 'Modules',
       deployment: 'Deployment'
     },
-    cli: 'با کمک کامند',
-    scratch: 'از ابتدا'
+    cli: 'متن',
+    scratch: 'تصویر'
   }
 }

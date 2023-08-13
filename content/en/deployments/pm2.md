@@ -62,4 +62,4 @@ Your Nuxt application is now serving!
 
 This solution guarantees no downtime for your application on this server. (You should also prevent server failure through redundancy or high availability cloud solutions.)
 
-You can find PM2 additional configurations [here](https://pm2.keymetrics.io/docs/usage/application-declaration/#general).
+You can find PM2 additional configurations [here](https://pm2.keymetrics.io/___documentation___usage/application-declaration/#general).
