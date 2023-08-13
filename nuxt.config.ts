@@ -168,13 +168,13 @@ export default withDocus({
         iso: 'fa-IR',
         file: 'fa-IR.js',
         name: 'فارسی'
+      },
+      {
+        code: 'en',
+        iso: 'en-US',
+        file: 'en-US.js',
+        name: 'English'
       }
-      // {
-      //   code: 'en',
-      //   iso: 'en-US',
-      //   file: 'en-US.js',
-      //   name: 'English'
-      // }
     ]
   },
   colorMode: {

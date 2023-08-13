@@ -13,10 +13,10 @@ export default {
   },
   footer: {
     newsletter: {
-      title: 'Newsletter',
-      description: 'The latest news, articles, and resources, sent to your inbox monthly.',
+      title: 'اطلاعیه ها',
+      description: 'برای دریافت آخرین اخبار و اطلاعیه ها، ایمیل تان را وارد کنید.',
       form: {
-        email: 'Email',
+        email: 'آدرس ایمیل',
         subscribing: 'Subscribing...',
         subscribe: 'Subscribe',
         already_registered: 'You are already registered',
