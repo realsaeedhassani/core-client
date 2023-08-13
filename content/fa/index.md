@@ -10,7 +10,7 @@ bgClass: 'bg-white'
 فرقی نداره غرفه ات کجای نمایشگاه باشه
 
 #description
-با ما <br class="hidden sm:block" /> شناخته خواهی شد!
+با ما شناخته خواهی شد!
 
 <!-- #primary-button
 :app-button[بیش از 40 هزار ستاره در گیت‌هاب]{ href="https://github.com/nuxt/nuxt" icon="IconGitHub" extraClass="text-white bg-sky-black hover:bg-sky-darker leading-4" } -->
