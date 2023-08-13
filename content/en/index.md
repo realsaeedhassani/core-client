@@ -1,7 +1,7 @@
 ---
 template: blank
 title: 'Generative AI'
-description: 'از Nuxt 2 برای ساخت برنامه Vue 2 خود با اعتماد استفاده کنید. یک چارچوب متن باز که توسعه وب را ساده و قدرتمند می‌کند.'
+description: 'توضیحات...'
 bgClass: 'bg-white'
 ---
 

@@ -10,7 +10,7 @@ bgClass: 'bg-white'
 فرقی نداره غرفه ات کجای نمایشگاه باشه<br/>با ما شناخته خواهی شد
 
 #description
-ایده‌های خود را تبدیل به واقعیت کنید<br class="hidden sm:block" />بیت‌ها را به آثار هنری تبدیل کنید.
+با ما <br class="hidden sm:block" /> شناخته خواهی شد!
 
 <!-- #primary-button
 :app-button[بیش از 40 هزار ستاره در گیت‌هاب]{ href="https://github.com/nuxt/nuxt" icon="IconGitHub" extraClass="text-white bg-sky-black hover:bg-sky-darker leading-4" } -->
