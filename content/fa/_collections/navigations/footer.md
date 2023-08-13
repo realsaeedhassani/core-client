@@ -2,7 +2,7 @@
 links:
   - title: 'درباره ما'
     items:
-      - title: 'با ما تماس بگیرید'
+      - title: 'تماس با ما'
         href: 'mailto:hello@ex-pouya.ai'
       - title: 'پشتیبانی '
         to: '/support'

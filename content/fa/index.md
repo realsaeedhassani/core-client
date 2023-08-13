@@ -75,7 +75,7 @@ hoverClass: 'hover:bg-sky-darker'
 title: دسته بندی
 description: 'برای اطلاعات بیشتر کلیک کنید!'
 image: /img/home/learn/guides/gem-4.svg
-to: 'https://carvann.ir/?utm_source=nuxt&utm_medium=link&utm_campaign=nsite'
+to: '#'
 hoverClass: 'hover:bg-sky-darker'
 ---
 ::
