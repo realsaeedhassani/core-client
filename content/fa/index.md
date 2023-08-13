@@ -7,10 +7,10 @@ bgClass: 'bg-white'
 
 ::home-hero
 #title
-فرقی نداره غرفه ات کجای نمایشگاه باشه
+فرقی نداره غرفه ات کجای نمایشگاه باشه، با ما شناخته خواهی شد!
 
 #description
-با ما شناخته خواهی شد!
+پویا، ربات قدرتمند راهنمای مشتریان نمایشگاه شما
 
 <!-- #primary-button
 :app-button[بیش از 40 هزار ستاره در گیت‌هاب]{ href="https://github.com/nuxt/nuxt" icon="IconGitHub" extraClass="text-white bg-sky-black hover:bg-sky-darker leading-4" } -->
