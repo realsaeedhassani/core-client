@@ -20,12 +20,11 @@ jobs:
         run: |
           yarn build
           # yarn generate
-          pwd  
       - name: Deploy on server
         uses: appleboy/scp-action@v0.1.3
         with:
           host: ${{ secrets.DEV_HOST }}
           username: ${{ secrets.DEV_USERNAME }}
           password: ${{ secrets.DEV_PASSWORD }}
-          source: "/home/runner/work/vue-pwa-carvann/vue-pwa-carvann/.output/public"
+          source: "/home/runner/work/core-client/core-client/.output/public"
           target: ${{ secrets.DEV_PATH }}
