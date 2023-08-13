@@ -19,6 +19,8 @@ jobs:
       - name: Build application
         run: |
           yarn build
+          pwd
+          ls
           # yarn generate
       - name: Deploy on server
         uses: appleboy/scp-action@v0.1.3
