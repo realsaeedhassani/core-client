@@ -6,8 +6,8 @@
           <p class="flex">
             <span>$&nbsp;</span
             ><span class="fromscratch__yarn__addnuxt"
-              >متن پیام چت برای <span class="text-green">ایجاد تصویر</span></span
-            >
+              >متن پیام چت برای <strong class="text-green">ایجاد تصویر</strong>
+            </span>
           </p>
           <p class="fromscratch__loading">> درحال ایجاد...</p>
           <div class="fromscratch__progressbars__install">
@@ -122,7 +122,7 @@
     animation: slideSidebarRight 600ms cubic-bezier(0.83, 0, 0.17, 1) forwards 9s;
   }
   & p {
-    @apply absolute top-4 left-6 font-bold text-display-5 text-gray-600 opacity-0;
+    @apply absolute top-4 left-6 font-bold text-display-6 text-gray-600 opacity-0;
     animation: appear 300ms cubic-bezier(0.83, 0, 0.17, 1) forwards 8.1s,
       slideContent 600ms cubic-bezier(0.83, 0, 0.17, 1) forwards 9s;
   }
