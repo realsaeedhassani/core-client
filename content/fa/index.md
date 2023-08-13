@@ -7,7 +7,7 @@ bgClass: 'bg-white'
 
 ::home-hero
 #title
-فرقی نداره غرفه ات کجای نمایشگاه باشه<br/>با ما شناخته خواهی شد
+فرقی نداره غرفه ات کجای نمایشگاه باشه
 
 #description
 با ما <br class="hidden sm:block" /> شناخته خواهی شد!
