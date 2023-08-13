@@ -18,8 +18,8 @@ jobs:
  
       - name: Build application
         run: |
-          # yarn build
-          yarn generate
+          yarn build
+          # yarn generate
           ls /home/runner/work/vue-pwa-carvann/vue-pwa-carvann/.output/public
       - name: Deploy on server
         uses: appleboy/scp-action@v0.1.3
