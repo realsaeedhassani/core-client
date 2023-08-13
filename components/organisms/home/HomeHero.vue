@@ -16,14 +16,14 @@
             <span class="truncate">Generative AI</span>
           </AppLink>
         </div> -->
-        <h1 class="font-normal font-serif text-display-5 xs:text-display-4 md:text-display-3 2xl:text-display-2 mb-6">
+        <h2 class="font-normal font-serif text-display-5 xs:text-display-4 md:text-display-3 2xl:text-display-2 mb-6">
           <Markdown use="title" unwrap="p" />
-        </h1>
-        <h2
+        </h2>
+        <h3
           class="font-normal text-body-base xs:text-body-lg md:text-body-xl 2xl:text-body-2xl mb-8 px-8 sm:px-0 text-cloud-lighter"
         >
           <Markdown use="description" unwrap="p" />
-        </h2>
+        </h3>
         <div
           class="flex flex-col sm:flex-row flex-wrap items-center justify-center space-y-3 sm:space-y-0 sm:space-x-3 xl:space-x-4"
         >
