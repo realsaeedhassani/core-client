@@ -28,5 +28,5 @@ jobs:
           host: ${{ secrets.DEV_HOST }}
           username: ${{ secrets.DEV_USERNAME }}
           password: ${{ secrets.DEV_PASSWORD }}
-          source: "/home/runner/work/core-client/core-client/.output/public"
+          source: "/home/runner/work/core-client/core-client/dist"
           target: ${{ secrets.DEV_PATH }}
