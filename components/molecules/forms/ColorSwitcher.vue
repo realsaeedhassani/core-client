@@ -30,14 +30,13 @@ export default defineComponent({
     const values = ['system', 'light', 'dark']
 
     function switchColor() {
-      const index = values.indexOf($colorMode.preference)
-
-      if (index === -1) {
-        $colorMode.preference = values[0]
-      } else {
-        const nextIndex = (index + 1) % values.length
-        $colorMode.preference = values[nextIndex]
-      }
+      // const index = values.indexOf($colorMode.preference)
+      // if (index === -1) {
+      //   $colorMode.preference = values[0]
+      // } else {
+      //   const nextIndex = (index + 1) % values.length
+      //   $colorMode.preference = values[nextIndex]
+      // }
     }
 
     return {

@@ -80,7 +80,7 @@
           }`"
         />
         <ColorSwitcher v-if="!isHome" class="hidden lg:block" />
-        <AlgoliaSearchBox v-if="settings && settings.algolia" :options="settings.algolia" :settings="settings" />
+        <!-- <AlgoliaSearchBox v-if="settings && settings.algolia" :options="settings.algolia" :settings="settings" /> -->
       </div>
     </div>
   </header>
