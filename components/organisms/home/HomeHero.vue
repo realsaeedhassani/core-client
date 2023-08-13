@@ -16,9 +16,7 @@
             <span class="truncate">Generative AI</span>
           </AppLink>
         </div> -->
-        <h2
-          class="font-normal font-serif text-display-6 xs:text-display-5 md:text-display-5 2xl:text-display-3 mb-6 animate-pouya"
-        >
+        <h2 class="font-normal font-serif text-display-6 xs:text-display-5 md:text-display-5 2xl:text-display-3 mb-6">
           <Markdown use="title" unwrap="p" />
         </h2>
         <h3
@@ -36,18 +34,3 @@
     </div>
   </div>
 </template>
-<style lang="postcss" scoped>
-@keyframes highlight {
-  0%,
-  100% {
-    background-color: transparent;
-  }
-  50% {
-    background-color: #012a35;
-  }
-}
-
-.animate-pouya {
-  animation: highlight 2s infinite;
-}
-</style>
