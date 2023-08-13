@@ -25,7 +25,7 @@ category: استفاده
 ---
 
 #title
-[Ex]{.text-primary}-Pouya [.]{.text-primary} ai
+[Ex]{.text-primary}-Pouya[.]{.text-primary}ai
 
 #description
 از مبتدی تا پیشرفته آموزش ببینید.

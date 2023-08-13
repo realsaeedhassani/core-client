@@ -2,9 +2,9 @@
   <div class="overflow-hidden relative bg-sky-black text-white -mt-14 pt-14 md:-mt-18 md:pt-18">
     <HeroParallax />
     <!-- Stars -->
-    <div class="absolute left-0 w-full h-full overflow-hidden -top-24 z-0">
+    <!-- <div class="absolute left-0 w-full h-full overflow-hidden -top-24 z-0">
       <Star v-for="star in 80" :key="star" />
-    </div>
+    </div> -->
     <div class="flex flex-wrap justify-center py-0 section">
       <section class="flex flex-col justify-start w-full px-4 pt-36 pb-48 md:pt-44 lg:pb-56 lg:pt-36 text-center z-20">
         <!-- <div class="flex justify-center mb-16">
