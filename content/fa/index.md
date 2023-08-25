@@ -1,7 +1,7 @@
 ---
 template: blank
-title: 'Generative AI'
-description: 'از Nuxt 2 برای ساخت برنامه Vue 2 خود با اعتماد استفاده کنید. یک چارچوب متن باز که توسعه وب را ساده و قدرتمند می‌کند.'
+title: 'پویا'
+description: 'فرقی نداره کجای نمایشگاه باشی'
 bgClass: 'bg-white'
 ---
 
@@ -16,7 +16,7 @@ bgClass: 'bg-white'
 :app-button[بیش از 40 هزار ستاره در گیت‌هاب]{ href="https://github.com/nuxt/nuxt" icon="IconGitHub" extraClass="text-white bg-sky-black hover:bg-sky-darker leading-4" } -->
 
 #secondary-button
-:app-button[شروع کنید]{ to="/___documentation___get-started/installation" }
+:app-button[شروع کنید]{ to="/chat/get-started/installation" }
 ::
 
 ::home-learn-master

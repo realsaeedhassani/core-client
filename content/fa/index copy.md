@@ -16,7 +16,7 @@ bgClass: 'bg-white'
 :app-button[بیش از 40 هزار ستاره در گیت‌هاب]{ href="https://github.com/nuxt/nuxt" icon="IconGitHub" extraClass="text-white bg-sky-black hover:bg-sky-darker leading-4" } -->
 
 #secondary-button
-:app-button[شروع کنید]{ to="/___documentation___get-started/installation" }
+:app-button[شروع کنید]{ to="/chat" }
 ::
 
 ::home-learn-master
@@ -31,7 +31,7 @@ category: استفاده
 از مبتدی تا پیشرفته آموزش ببینید.
 
 #bottom
-:app-button[آموزش را شروع کنید]{to="/___documentation___get-started/installation"}
+:app-button[آموزش را شروع کنید]{to="/chat"}
 ::
 
 ::home-features

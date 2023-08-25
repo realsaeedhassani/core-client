@@ -296,5 +296,11 @@ export default {
     },
     cli: 'متن',
     scratch: 'تصویر'
+  },
+  translated_pages: {
+    title: 'نمایشگاه شماره یک',
+    content_outdated: 'نمایشگاه ساختمان و فلان و فلان ',
+    read_original_page: 'وب سایت رسمی',
+    contribute: 'بازخورد'
   }
 }
