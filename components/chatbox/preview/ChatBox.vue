@@ -3,77 +3,44 @@
     <div class="fromscratch__code">
       <div class="fromscratch__code__wrapper">
         <div class="fromscratch__code__bash">
-          <p class="flex">
-            <span>$&nbsp;</span
-            ><span class="fromscratch__yarn__addnuxt"
-              >متن پیام چت برای <strong class="text-green">ایجاد تصویر</strong>
-            </span>
-          </p>
-          <p class="fromscratch__loading">> درحال ایجاد...</p>
-          <div class="fromscratch__progressbars__install">
-            <div class="fromscratch__progressbar"></div>
-            <div class="fromscratch__progressbar"></div>
-            <div class="fromscratch__progressbar"></div>
-          </div>
-          <p class="flex">
-            <span class="fromscratch__seconddollar">$&nbsp;</span
-            ><span class="fromscratch__yarn__rundev">yarn run dev</span>
-          </p>
-          <div class="fromscratch__progressbars__dev">
-            <div class="fromscratch__progressbar"></div>
-            <div class="fromscratch__progressbar"></div>
-            <div class="fromscratch__progressbar"></div>
-          </div>
-          <p class="flex items-center fromscratch__compiled">
-            <IconCheck class="mr-2 nui-icon-md text-green w-4 h-4" />
-            compiled
-          </p>
-        </div>
-        <div class="fromscratch__code__ide">
-          <div class="fromscratch__code__ide__head">
-            <div class="fromscratch__code__ide__head__circles">
-              <span class="fromscratch__code__ide__head__circles__circle"></span>
-              <span class="fromscratch__code__ide__head__circles__circle"></span>
-              <span class="fromscratch__code__ide__head__circles__circle"></span>
-            </div>
-            <p class="fromscratch__code__ide__head__file">index.vue</p>
-          </div>
-          <div class="fromscratch__code__ide__side">
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-            <span>4</span>
-            <span>5</span>
-            <span>6</span>
-          </div>
-          <div class="fromscratch__code__ide__content">
-            <p>
-              <!-- Template tag open -->
-              <span>&lt;</span><span class="text-red-400">template</span><span>&gt;</span>
-            </p>
-            <p><span>&lt;</span><span class="text-red-400">div</span><span>&gt;</span></p>
-            <p>
-              <!-- Sidebar component -->
-              <span>&lt;</span><span class="text-red-400">Sidebar</span><span>/&gt;</span>
-            </p>
-            <p>
-              <!-- Hello world h1 -->
-              <span>&lt;</span>
-              <span class="text-red-400">h1</span>
-              <span>&gt;</span>Hello world !<span>&lt;</span>&#47;<span class="text-red-400">h1</span>
-              <span>&gt;</span>
-            </p>
-            <p><span>&lt;</span>&#47;<span class="text-red-400">div</span><span>&gt;</span></p>
-            <p>
-              <!-- Template tag open -->
-              <span>&lt;</span>&#47;<span class="text-red-400">template</span><span>&gt;</span>
-            </p>
-          </div>
+          <p class="flex"><span>$&nbsp;</span><span class="fromscratch__yarn__addnuxt"> </span></p>
         </div>
       </div>
+      <p v-html="chatResult.value"></p>
+      <div>
+        <AppInput v-model="message" type="text" required @click.native="sendMessage" />
+      </div>
+      <!-- <div class="lg:col-span-full flex justify-end">
+        <AppButton>ارسال پیام</AppButton>
+      </div> -->
     </div>
   </div>
 </template>
+
+<script>
+import { defineComponent, useContext, ref } from '@nuxtjs/composition-api'
+import { useChatBot } from '~/plugins/chat'
+
+export default defineComponent({
+  props: {
+    iconClass: {
+      type: String,
+      default: 'w-6 h-6 m-auto'
+    }
+  },
+  setup() {
+    const results = ref()
+    const { message, chatResult, pending, sendMessage } = useChatBot()
+
+    return {
+      message,
+      chatResult,
+      pending,
+      sendMessage
+    }
+  }
+})
+</script>
 
 <style lang="postcss" scoped>
 .fromscratch__container {

@@ -1,5 +1,7 @@
 <template>
-  <div ref="carbonads" class="Carbon dark:bg-secondary-darkest bg-gray-50" />
+  <div class="Carbon dark:bg-secondary-darkest bg-gray-50">
+    <strong>محل تبلیغات</strong>
+  </div>
 </template>
 
 <script>
@@ -8,13 +10,13 @@ import { defineComponent } from '@nuxtjs/composition-api'
 export default defineComponent({
   name: 'AdsCarbon',
   mounted() {
-    if (this.$refs.carbonads) {
-      const script = document.createElement('script')
-      script.setAttribute('type', 'text/javascript')
-      script.setAttribute('src', 'https://cdn.carbonads.com/carbon.js?serve=CKYILK7U&placement=nuxtjsorg')
-      script.setAttribute('id', '_carbonads_js')
-      this.$refs.carbonads.appendChild(script)
-    }
+    // if (this.$refs.carbonads) {
+    //   const script = document.createElement('script')
+    //   script.setAttribute('type', 'text/javascript')
+    //   script.setAttribute('src', 'https://cdn.carbonads.com/carbon.js?serve=CKYILK7U&placement=nuxtjsorg')
+    //   script.setAttribute('id', '_carbonads_js')
+    //   this.$refs.carbonads.appendChild(script)
+    // }
   }
 })
 </script>
