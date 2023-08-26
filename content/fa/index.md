@@ -16,7 +16,7 @@ bgClass: 'bg-white'
 :app-button[بیش از 40 هزار ستاره در گیت‌هاب]{ href="https://github.com/nuxt/nuxt" icon="IconGitHub" extraClass="text-white bg-sky-black hover:bg-sky-darker leading-4" } -->
 
 #secondary-button
-:app-button[شروع کنید]{ to="/chat/get-started/installation" }
+:app-button[شروع کنید]{ to="https://genx.karbabar.ir/v1/" }
 ::
 
 ::home-learn-master
