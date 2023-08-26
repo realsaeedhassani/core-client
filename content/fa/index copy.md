@@ -31,7 +31,7 @@ category: استفاده
 از مبتدی تا پیشرفته آموزش ببینید.
 
 #bottom
-:app-button[آموزش را شروع کنید]{to="/chat"}
+:app-button[آموزش را شروع کنید]{to="https://genx.karbabar.ir/v1/"}
 ::
 
 ::home-features
