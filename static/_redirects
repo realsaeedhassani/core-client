@@ -358,12 +358,12 @@
 /:locale/team /:locale/teams 302!
 
 #V3
-/v3 https://_example.com/ 302!
-/:locale/v3 https://_example.com/ 302!
+/v3 https://genx.karbabar.ir/ 302!
+/:locale/v3 https://genx.karbabar.ir/ 302!
 
 #Modules
-/modules https://_example.com/modules/ 302!
-/:locale/modules https://_example.com/modules/ 302!
+/modules https://genx.karbabar.ir/modules/ 302!
+/:locale/modules https://genx.karbabar.ir/modules/ 302!
 
 # [LEGACY] Redirect GUIDE URLs
 /guide/themes /themes 301!
@@ -631,26 +631,26 @@
 
 # Partners
 
-/partners https://_example.com/support/agencies 301!
-/partners/:slug https://_example.com/support/agencies/:slug 301!
-/:locale/partners https://_example.com/support/agencies 301!
-/:locale/partners/:slug https://_example.com/support/agencies/:slug 301!
+/partners https://genx.karbabar.ir/support/agencies 301!
+/partners/:slug https://genx.karbabar.ir/support/agencies/:slug 301!
+/:locale/partners https://genx.karbabar.ir/support/agencies 301!
+/:locale/partners/:slug https://genx.karbabar.ir/support/agencies/:slug 301!
 
 # Sponsors
 
-/sponsors https://_example.com/support/us 301!
-/:locale/sponsors https://_example.com/support/us 301!
+/sponsors https://genx.karbabar.ir/support/us 301!
+/:locale/sponsors https://genx.karbabar.ir/support/us 301!
 
 # Design Kit
-/design https://_example.com/design-kit 301!
-/:locale/design https://_example.com/design-kit 301!
+/design https://genx.karbabar.ir/design-kit 301!
+/:locale/design https://genx.karbabar.ir/design-kit 301!
 
 <!-- # Announcements
 
-/announcements https://_example.com/blog 301!
-/:locale/announcements https://_example.com/blog 301!
-/announcements/:slug https://_example.com/blog/:slug 301!
-/:locale/announcements/:slug https://_example.com/blog/:slug 301! -->
+/announcements https://genx.karbabar.ir/blog 301!
+/:locale/announcements https://genx.karbabar.ir/blog 301!
+/announcements/:slug https://genx.karbabar.ir/blog/:slug 301!
+/:locale/announcements/:slug https://genx.karbabar.ir/blog/:slug 301! -->
 
 # Case Studies
 

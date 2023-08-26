@@ -10,7 +10,7 @@ const logger = consola.withTag('crawler')
 const excludedExtensions = ['svg', 'png', 'jpg', 'sketch', 'ico', 'gif']
 const urlsToOmit = ['http://localhost:3000']
 
-const sourceSite = 'https://v2._example.com'
+const sourceSite = 'https://v2.genx.karbabar.ir'
 const baseURL = withoutTrailingSlash(process.env.BASE_URL || 'https://preview.nuxtjs.org')
 
 const startingURL = sourceSite + '/'

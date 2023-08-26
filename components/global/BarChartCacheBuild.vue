@@ -11,7 +11,7 @@ export default {
           '[netlify] Basic',
           '[netlify] strapi.nuxtjs.org',
           '[netlify] content.nuxtjs.org',
-          '[netlify] v2._example.com'
+          '[netlify] v2.genx.karbabar.ir'
         ],
         datasets: [
           {

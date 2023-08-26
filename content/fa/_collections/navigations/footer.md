@@ -9,7 +9,7 @@ links:
   - title: 'اخبار'
     items:
       - title: 'اعلانات'
-        href: 'https://_example.com/blog'
+        href: 'https://genx.karbabar.ir/blog'
       - title: 'مشارکت'
         to: '/contribution-guide'
       - title: 'دیسکورد'

@@ -1,6 +1,6 @@
 <template>
   <AppLink
-    to="https://_example.com"
+    to="https://genx.karbabar.ir"
     class="group flex items-center transition-height delay-200 h-10 bg-primary hover:bg-primary-400"
     tabindex="0"
   >

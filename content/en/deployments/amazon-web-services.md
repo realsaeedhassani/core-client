@@ -105,7 +105,7 @@ First, we'll generate the site with `nuxt generate`(<= v2.12). Then, we'll use [
 
 Our deploy script needs these environment variables set:
 
-- AWS_BUCKET_NAME="example.com"
+- AWS_BUCKET_NAME="genx.karbabar.ir"
 - AWS_CLOUDFRONT="UPPERCASE"
 - AWS_ACCESS_KEY_ID="key"
 - AWS_SECRET_ACCESS_KEY="secret"
@@ -130,7 +130,7 @@ Please follow this [tutorial to setup your S3 and CloudFront](https://learnetto.
 
 You should now have this data:
 
-- AWS_BUCKET_NAME="example.com"
+- AWS_BUCKET_NAME="genx.karbabar.ir"
 - AWS_CLOUDFRONT="UPPERCASE"
 
 ### AWS: Configure security access
@@ -142,7 +142,7 @@ For step 3, we need to create a user that can:
 
 [Create a programmatic user with this policy](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html):
 
-> NOTE: replace 2x `example.com` with your S3 bucket name below. This policy allows pushing to the specified bucket, and invalidating any CloudFront distribution.
+> NOTE: replace 2x `genx.karbabar.ir` with your S3 bucket name below. This policy allows pushing to the specified bucket, and invalidating any CloudFront distribution.
 
 ```json
 {
@@ -151,7 +151,7 @@ For step 3, we need to create a user that can:
     {
       "Effect": "Allow",
       "Action": ["s3:ListBucket"],
-      "Resource": ["arn:aws:s3:::example.com"]
+      "Resource": ["arn:aws:s3:::genx.karbabar.ir"]
     },
     {
       "Effect": "Allow",
@@ -164,7 +164,7 @@ For step 3, we need to create a user that can:
         "s3:ListMultipartUploadParts",
         "s3:AbortMultipartUpload"
       ],
-      "Resource": ["arn:aws:s3:::example.com/*"]
+      "Resource": ["arn:aws:s3:::genx.karbabar.ir/*"]
     },
     {
       "Effect": "Allow",
@@ -196,7 +196,7 @@ You should now have this data:
 
 export AWS_ACCESS_KEY_ID="key"
 export AWS_SECRET_ACCESS_KEY="secret"
-export AWS_BUCKET_NAME="example.com"
+export AWS_BUCKET_NAME="genx.karbabar.ir"
 export AWS_CLOUDFRONT="UPPERCASE"
 
 # Load nvm (node version manager), install node (version in .nvmrc), and npm install packages
@@ -313,15 +313,15 @@ You should get an output similar to this:
 ```bash
 $ ./deploy.sh
 
-Found '/home/michael/scm/example.com/www/.nvmrc' with version <8>
+Found '/home/michael/scm/genx.karbabar.ir/www/.nvmrc' with version <8>
 Now using node v8.11.2 (npm v5.6.0)
 
-> example.com@1.0.0 generate /home/michael/scm/example.com/www
+> genx.karbabar.ir@1.0.0 generate /home/michael/scm/genx.karbabar.ir/www
 > nuxt generate
 
   nuxt:generate Generating... +0ms
-  nuxt:build App root: /home/michael/scm/example.com/www +0ms
-  nuxt:build Generating /home/michael/scm/example.com/www/.nuxt files... +0ms
+  nuxt:build App root: /home/michael/scm/genx.karbabar.ir/www +0ms
+  nuxt:build Generating /home/michael/scm/genx.karbabar.ir/www/.nuxt files... +0ms
   nuxt:build Generating files... +36ms
   nuxt:build Generating routes... +10ms
   nuxt:build Building files... +24ms
@@ -371,7 +371,7 @@ server-bundle.json  306 kB          [emitted]
   nuxt: Call generate:done hooks (1) +4ms
   nuxt:generate HTML Files generated in 11.8s +5ms
   nuxt:generate Generate done +0ms
-[21:25:27] Using gulpfile ~/scm/example.com/www/gulpfile.js
+[21:25:27] Using gulpfile ~/scm/genx.karbabar.ir/www/gulpfile.js
 [21:25:27] Starting 'deploy'...
 Configured with CloudFront distribution
 [21:25:27] [cache]  README.md

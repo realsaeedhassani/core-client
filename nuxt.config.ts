@@ -29,12 +29,12 @@ export default withDocus({
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://v2._example.com/preview.png'
+        content: 'https://v2.genx.karbabar.ir/preview.png'
       },
       {
         hid: 'og:image:secure_url',
         property: 'og:image:secure_url',
-        content: 'https://v2._example.com/preview.png'
+        content: 'https://v2.genx.karbabar.ir/preview.png'
       },
       {
         hid: 'og:image:alt',
@@ -44,7 +44,7 @@ export default withDocus({
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://v2._example.com/preview.png'
+        content: 'https://v2.genx.karbabar.ir/preview.png'
       }
     ],
     script: [
@@ -151,13 +151,13 @@ export default withDocus({
       // 'npmjs.com',
       // 'cdn.krutiepatel.com',
       // 'nuxtjs.org',
-      // 'v2._example.com',
+      // 'v2.genx.karbabar.ir',
       // 'i.imgur.com',
       // 'avatars0.githubusercontent.com',
       // 'avatars1.githubusercontent.com',
       // 'avatars2.githubusercontent.com',
       // 'avatars3.githubusercontent.com',
-      // '_example.com/modules'
+      // 'genx.karbabar.ir/modules'
     ]
   },
   i18n: {

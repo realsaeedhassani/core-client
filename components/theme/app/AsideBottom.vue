@@ -21,7 +21,7 @@
       </div>
     </AppLink>
     <div v-if="$docus.currentPath.value.startsWith('/docs')">
-      <AppLink href="https://_example.com" class="flex items-center group nuxt-text-highlight-hover mt-4">
+      <AppLink href="https://genx.karbabar.ir" class="flex items-center group nuxt-text-highlight-hover mt-4">
         <IconNuxt class="w-5 h-5 mr-2 text-primary" />
         <span>Nuxt 3 docs</span>
       </AppLink>
