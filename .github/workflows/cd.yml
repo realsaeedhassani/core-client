@@ -23,7 +23,7 @@ jobs:
           ls
           # yarn generate
       - name: Deploy on server
-        uses: appleboy/scp-action@v0.1.3
+        uses: appleboy/scp-action@v0.1.5
         with:
           host: ${{ secrets.DEV_HOST }}
           username: ${{ secrets.DEV_USERNAME }}
